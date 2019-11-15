@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*头部*/
+header{
+    background: #FF8A00;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.6rem;
+}
+
+header>img{
+    height: 0.48rem;
+    width: 1.2rem;
+}
+header>div{
+    font-size: 0px;
+}
+header>div>img{
+    height: 0.37rem;
+    width: 0.3rem;
+    margin-left: 0.2rem;
+}
+
+/*尾部*/
+footer{
+    background: #2F3130;
+    font-size: 0.15rem;
+    color: #999999;
+    width: 100%;
+}
+footer h2{
+    font-size: 0.15rem;
+    padding: 0.15rem 0.2rem;
+    border-bottom: 1px solid #cccccc;
+}
+footer .content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+footer .iPhone{
+    flex: 1;
+}
+footer .Android{
+    flex: 1;
+}
+footer .p{
+    display: inline-block;
+    text-align: center;
+    font-size: 0.15rem;
+}
+footer .content img{
+    width: 0.25rem;
+    height: 0.3rem;
+    margin-right: 0.1rem;
+}
+.text{
+    text-align: center;
+    padding: 0.2rem 0;
+}
+
