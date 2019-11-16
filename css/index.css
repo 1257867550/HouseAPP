@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index-img{
+    width: 100%;
+    height: 2.4rem;
+    position: relative;
+    background-image: url("../image/index/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 100%;
+}
+.search{
+    width: 82%;
+    height: 0.42rem;
+    font-size: 0.16rem;
+    position: absolute;
+    top: 1.85rem;
+    left: 3%;
+    border: 1px solid ;
+    border-radius: 0.3rem;
+    padding-left:0.4rem;
+}
+.search-icon{
+    position: absolute;
+    top: 1.9rem;
+    left: 6%;
+    z-index: 2;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.icons{
+    background: #FF8A00;
+    display: flex;
+}
+.icons div{
+    flex:1;
+    font-size: 0.15rem;
+    color: white;
+    text-align: center;
+    margin: 0.2rem 0;
+}
+.icons div img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.index-img2{
+    width: 100%;
+}
+.title{
+    background: #FF8A00;
+    color: white;
+    font-size: 0.17rem;
+    padding: 0.12rem 0.2rem;
+}
+.houses{
+    margin-top: 0.2rem;
+}
+.house{
+    font-size: 0.17rem;
+    padding: 0 0.2rem;
+}
+.house>div{
+    border-bottom: 1px solid red;
+    padding: 0.2rem 0;
+    display: flex;
+}
+.house>div:last-of-type{
+    border-bottom: 0px solid red;
+}
+.house img{
+    width: 0.8rem;
+    height: 0.8rem;
+    flex: 1;
+    margin-right: 0.1rem;
+}
+.house .text{
+    display: block;
+    flex: 2;
+}
+.house .text h3{
+    font-size: 0.18rem;
+    width: 1.9rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.house .text p{
+    font-size: 0.13rem;
+    margin-top: 0.08rem;
+}
+.house .text p:first-of-type span{
+    color: #ff8a00;
+}
+.house .text p:last-of-type{
+    color: #aaaaaa;
+}
+.house .text p span{
+    float: right;
+}
+.text .a{
+    margin-top: 0.1rem;
+    font-size: 0.13rem;
+}
+.text .a a{
+    text-decoration: none;
+    color: #999999;
+    background: #eeeeee;
+    padding: 0.05rem;
+}
+hr{
+    height: 0.05rem;
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+}
+
+.attention ul{
+    border-bottom: 1px solid #ff8a00;
+    font-size: 0.18rem;
+    text-align: center;
+    display: flex;
+}
+.attention ul li{
+    list-style-type:none;
+    flex: 1;
+    padding: 0.15rem 0;
+}
+.attention ul .active{
+    color: #ff8a00;
+    border-bottom: solid 1px #ff8a00;
+}
+.attentionInfo{
+    font-size: 0.1rem;
+    display: flex;
+    padding: 0.1rem 0 0.1rem 0.3rem;
+}
+.attentionInfo ul{
+    flex: 1;
+    list-style-type:none;
+}
+.attentionInfo ul li{
+    margin: 0.1rem 0;
+}
+.attentionInfo a{
+    color: #333333;
+    text-decoration: none;
+}
+.advert{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    font-size: 0.2rem;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.advert>img{
+    height: 0.2rem;
+    width: 0.2rem;
+}
+.advert .left{
+    flex: 2;
+}
+.advert .left img{
+    height: 0.35rem;
+    width: 0.35rem;
+    float: left;
+    margin: 0.1rem 0.2rem;
+    margin-bottom: 0;
+}
+.advert .left .text{
+    float: left;
+    width: 1rem;
+    margin: 0.05rem 0;
+}
+.advert .left .text p:last-of-type{
+    font-size: 0.1rem;
+}
+.advert .right{
+    flex: 1;
+    background: #ff8a00;
+    text-align: center;
+}
+.advert .right a{
+    text-decoration: none;
+    color: white;
+    line-height: 0.5rem;
+}
