@@ -46,11 +46,11 @@ body{
 	text-align: center;
 }
 .downList a:first-of-type{
-	background: url(../img/urse.png) center 0 no-repeat;
+	background: url(../image/my/urse.png) center 0 no-repeat;
 	background-size: 0.15rem 0.15rem;
 }
 .downList a:last-of-type{
-	background: url(../img/down.png) center 0 no-repeat;
+	background: url(../image/my/down.png) center 0 no-repeat;
 	background-size: 0.15rem 0.15rem;
 }
 .head .logo{
@@ -77,7 +77,7 @@ body{
 	height: 0.48rem;
 	line-height: 0.48rem;
 	border-bottom: 1px solid #dcdcdc;
-	background: url(../img/right.png) right center no-repeat;
+	background: url(../image/my/right.png) right center no-repeat;
 	background-size: 0.07rem 0.14rem;
 }
 .userList img{
