@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    height: 0.1rem;
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.imgs{
+    height: 2rem;
+    position: relative;
+}
+.imgs li{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    display: none;
+}
+.imgs li:first-of-type{
+    display: inline-block;
+}
+.imgs img{
+    width: 100%;
+    height: 2rem;
+}
+.imgs .imgText{
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0.15rem;
+    z-index: 2;
+    color: white;
+    font-size: 0.2rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    height: 0.3rem;
+    width: 0.5rem;
+    text-align: center;
+}
+
+.houseInfo{
+    font-size: 0.15rem;
+    padding: 0.2rem;
+}
+.houseInfo p{
+    margin-top: 0.1rem;
+}
+.houseInfo p:first-of-type{
+    background-image: url("../image/SecondHandList/phone.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.houseInfo p:nth-of-type(2){
+    color: #cccccc;
+}
+.houseInfo p:nth-of-type(3) span{
+    margin-right: 0.1rem;
+    background: #dddddd;
+    color: #849aae;
+    padding: 0.03rem;
+}
+.houseInfo .red{
+    color: red;
+    font-weight: bold;
+}
+.houseDetails{
+    font-size: 0.15rem;
+    padding: 0 0.3rem;
+}
+.houseDetails ul li{
+    padding: 0.15rem 0;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+}
+.houseDetails ul li span{
+    flex: 1;
+}
+.houseDetails ul li:last-of-type{
+    border-bottom: 0px solid #dddddd;
+    text-align: center;
+    color: #aaaaaa;
+    display: block;
+}
+.houseInfo2{
+    font-size: 0.15rem;
+    padding: 0 0.2rem;
+}
+.houseInfo2 h3{
+    color: #ff8a00;
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo2 p{
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo2 p:last-of-type{
+    text-align: center;
+    color: #aaaaaa;
+}
+.houseInfo3{
+    font-size: 0.12rem;
+    padding: 0 0.2rem;
+}
+.houseInfo3>h3{
+    color: #ff8a00;
+    font-size: 0.18rem;
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo3 ul li{
+    padding: 0.2rem 0;
+    border-bottom: 1px #ff8a00 solid;
+    display: flex;
+}
+.houseInfo3 ul li:last-of-type{
+    border-bottom: 0px #ff8a00 solid;
+}
+.houseInfo3 ul li>img{
+    height: 0.8rem;
+    width: 0.8rem;
+    flex: 1;
+    margin-right: 0.1rem;
+}
+.houseInfo3 ul li>div{
+    flex: 3;
+}
+.houseInfo3 ul li>div h3,.houseInfo3 ul li>div p{
+    margin-bottom: 0.15rem;
+}
+.houseInfo3 ul li>div span{
+    margin-right: 0.1rem;
+    background: #eeeeee;
+    color: #849aae;
+    padding: 0.05rem;
+}
+.houseInfo4{
+    font-size: 0.15rem;
+    padding: 0 0.2rem;
+}
+.houseInfo4 h3{
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo4 ul li{
+    padding: 0.15rem 0;
+    border-bottom: 1px solid #dddddd;
+}
+.houseInfo4 ul li:last-of-type{
+    border-bottom: 0px solid #dddddd;
+    text-align: center;
+}
+.houseInfo4 ul li a:last-of-type{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.houseInfo5{
+    font-size: 0.15rem;
+    padding: 0 0.2rem;
+}
+.houseInfo5 h3{
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo5 img{
+    width: 100%;
+    padding: 0.15rem 0;
+}
+.houseInfo6{
+    font-size: 0.15rem;
+    padding: 0 0.2rem;
+}
+.houseInfo6 h3{
+    padding: 0.15rem 0;
+    border-bottom: 1px #dddddd solid;
+}
+.houseInfo6 .house{
+    border-bottom: 1px solid #dddddd;
+}
+.houseInfo6 .house>div{
+    padding: 0.2rem 0;
+    display: flex;
+}
+.houseInfo6 .house img{
+    width: 0.8rem;
+    height: 0.8rem;
+    flex: 1;
+    margin-right: 0.1rem;
+    margin-top: 0.2rem;
+}
+.houseInfo6 .house .text{
+    display: block;
+    flex: 2;
+}
+.houseInfo6 .house .text h3{
+    padding: 0;
+    font-size: 0.18rem;
+    width: 1.9rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    border-bottom: 0px;
+}
+.houseInfo6 .house .text p{
+    font-size: 0.13rem;
+    margin-top: 0.08rem;
+}
+.houseInfo6 .house .text p:first-of-type span{
+    color: #ff8a00;
+}
+.houseInfo6 .house .text p:last-of-type{
+    color: #aaaaaa;
+}
+.houseInfo6 .house .text p span{
+    float: right;
+}
+.houseInfo6 .text .a{
+    margin-top: 0.15rem;
+    font-size: 0.13rem;
+}
+.houseInfo6 .text .a a{
+    text-decoration: none;
+    color: #999999;
+    background: #eeeeee;
+    padding: 0.05rem;
+}
+.houseInfo6 .tips{
+    padding: 0;
+    margin-bottom: 0.1rem;
+    background: #eeeeee;
+    position: relative;
+}
+.houseInfo6 .tips span{
+    border: 0.1rem solid transparent;
+    border-bottom: 0.1rem solid #eeeeee;
+    position: absolute;
+    top: -0.2rem;
+    left: 0.05rem;
+}
+.houseInfo6 ul li:last-of-type{
+    border-bottom: 0px solid #dddddd;
+    padding: 0.15rem 0;
+    text-align: center;
+}
+.houseInfo6 ul li a:last-of-type{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.masterInfo{
+    font-size: 0.15rem;
+    padding: 0.1rem 0.15rem;
+}
+.masterInfo a:first-of-type{
+    display: inline-block;
+    width: 1.85rem;
+    line-height: 0.5rem;
+    text-align: center;
+    background: #ff8a00;
+    color: white;
+    background-image: url("../image/SecondHandList/user.png");
+    background-repeat: no-repeat;
+    background-size: 0.3rem 0.3rem;
+    background-position: 0.2rem;
+    border-radius: 0.1rem;
+    margin-right: 0.1rem;
+}
+.masterInfo a:last-of-type{
+    color: black;
+    display: inline-block;
+    width: 0.85rem;
+    line-height: 0.5rem;
+    text-align: center;
+    background-image: url("../image/SecondHandList/xin.png");
+    background-size: 0.3rem 0.3rem;
+    background-repeat: no-repeat;
+    background-position: -0.02rem center;
+}
