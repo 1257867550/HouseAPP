@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+    <header>
+        <img src="../image/index/logo.jpg" alt="">
+        <div>
+            <img src="../image/index/my.jpg" alt="">
+            <img src="../image/index/xiazai.jpg" alt="">
+        </div>
+    </header>
+
+    <section>
+        <div class="index-img">
+            <form class="form">
+                <img src="../image/index/seach.jpg" alt="" class="search-icon">
+                <input type="text" placeholder="输入小区或商圈名开始找房咯！" class="search">
+            </form>
+        </div>
+
+        <div class="icons">
+            <div>
+                <img src="../image/index/index_03.png" alt="">
+                <p>二手房</p>
+            </div>
+            <div>
+                <img src="../image/index/index_05.png" alt="">
+                <p>新房</p>
+            </div>
+            <div>
+                <img src="../image/index/index_07.png" alt="">
+                <p>租房</p>
+            </div>
+            <div>
+                <img src="../image/index/index_09.png" alt="">
+                <p>卖房</p>
+            </div>
+        </div>
+
+        <img src="../image/index/banner2.png" alt="" class="index-img2">
+
+        <div class="title">
+            <h3>热门房源</h3>
+            <p>Hot house</p>
+        </div>
+        <div class="houses">
+            <ul>
+                <li class="house">
+                    <div>
+                        <img src="../image/index/img1.jpg" alt="">
+                        <div class="text">
+                            <h3>文化部中间层 一层带阁楼</h3>
+                            <p>2室1厅96㎡南北 <span>1150万</span></p>
+                            <p>红庙北里 <span>14268元/平</span></p>
+                            <div class="a">
+                                <a href="#">学区房</a>
+                                <a href="#">独家</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="house">
+                    <div>
+                        <img src="../image/index/img2.png" alt="">
+                        <div class="text">
+                            <h3>光大水墨 精装复式 稀缺</h3>
+                            <p>2室1厅96㎡南北 <span>280万</span></p>
+                            <p>光大水墨 <span>14268元/平</span></p>
+                            <div class="a">
+                                <a href="#">学区房</a>
+                                <a href="#">独家</a>
+                                <a href="#">满五唯一</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="house">
+                    <div>
+                        <img src="../image/index/img3.png" alt="">
+                        <div class="text">
+                            <h3>南北通透两居 精装修 无</h3>
+                            <p>2室1厅96㎡南北 <span>320万</span></p>
+                            <p>北京新天地 <span>14268元/平</span></p>
+                            <div class="a">
+                                <a href="#">地铁房</a>
+                                <a href="#">独家</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr/>
+        <div class="attention">
+            <ul>
+                <li class="active"><a>热门关注</a></li>
+                <li><a>友情链接</a></li>
+            </ul>
+        </div>
+        <div class="attentionInfo">
+            <ul>
+                <li><a href="#">北京二手房</a></li>
+                <li><a href="#">北京二手房价</a></li>
+                <li><a href="#">海淀日租房</a></li>
+                <li><a href="#">朝阳新房</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">北京找房无忧</a></li>
+                <li><a href="#">青年家园</a></li>
+                <li><a href="#">免税房源</a></li>
+                <li><a href="#">满五年唯一免税</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="advert">
+        <img class="close" src="../image/index/close.png" alt="">
+        <div class="left">
+            <img src="../image/index/download.png" alt="">
+            <div class="text">
+                <p>找房无忧</p>
+                <p>市场行情,一手掌握</p>
+            </div>
+        </div>
+        <div class="right">
+            <a href="">免费下载</a>
+        </div>
+    </div>
+
+    <footer>
+        <h2>北京找房无忧 > 首页</h2>
+        <div class="content">
+            <div class="iPhone">
+                <img src="../image/index/apple.png" alt="">
+                <div class="p">
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </div>
+            <div class="Android">
+                <img src="../image/index/android.png" alt="">
+                <div class="p">
+                    <p>Android</p>
+                    <p>客户端</p>
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            <p>北京找房无忧房地产经纪公司</p>
+            <p>网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/zepto.js"></script>
+<script src="../js/rem.js"></script>
+<script>
+    $(function(){
+        $(".attention li").tap(function () {
+            $(this).addClass("active");
+            $(this).siblings().removeClass("active")
+        })
+
+        $(".advert .close").tap(function () {
+            $(".advert").css("display","none");
+        })
+    })
+</script>
+</html>

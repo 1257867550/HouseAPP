@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #eeeeee;
+}
+.body nav,.body ul{
+    background: white;
+}
+nav p{
+    font-size: 0.2rem;
+    padding: 0.1rem 0.15rem;
+    border-bottom: 1px solid #aaaaaa;
+}
+form ul{
+    margin-bottom: -0.7rem;
+}
+form li{
+    border-bottom: 1px solid #aaaaaa;
+    height: 0.5rem;
+    position: relative;
+}
+form li input{
+    height: 0.5rem;
+    width: 96%;
+    border: none;
+    position: absolute;
+    padding-left: 4%;
+}
+form li:first-of-type input{
+    width: 60%;
+}
+form li:first-of-type a{
+    position: absolute;
+    right: 4%;
+    z-index: 2;
+    line-height: 0.38rem;
+    width: 28%;
+    color: black;
+    border: 1px solid #aaaaaa;
+    margin-top: 0.05rem;
+    font-size: 0.1rem;
+    text-align: center;
+    text-decoration: none;
+}
+li input:focus{
+    outline:none;
+}
+.code{
+    font-size: 0.2rem;
+    line-height: 0.4rem;
+}
+.login{
+    width: 94%;
+    margin-left: 3%;
+    background: #ff8a00;
+    color: white;
+    border: none;
+    line-height: 0.4rem;
+    font-size: 0.17rem;
+}

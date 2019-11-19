@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>找房无忧-我的登录页面</title>
+		<link rel="stylesheet" href="../css/myL.css" />
+	</head>
+	<body>
+		<!--描述：头部-->
+		<header>
+			<h1>
+				<a href="#">
+					<img src="../image/index/logo.jpg" alt=""/>
+				</a>
+			</h1>
+			<div class="icon">
+				<a href="#"><img alt="" src="../image/index/my.jpg"/></a>
+				<a href="#"><img src="../image/index/xiazai.jpg" alt=""/></a>
+			</div>
+		</header>
+	<section class="rentalAddr">
+		<p><strong>首页</strong> > <span>我的</span></p>
+	</section>
+	<section class="ueserLogin">
+		<img class="ueser" src="../image/my/urse2.png" alt=""/>
+		<p>欢迎你,18686868686</p>
+	</section>
+	<section class="myLoginList">
+		<ul>
+			<li><a href="#">我关注的房源</a></li>
+			<li><a href="#">我关注的小区</a></li>
+			<li><a href="#">我的看房记录</a></li>
+		</ul>
+	</section>
+		<script language="javascript">
+            function custom_close(){
+                if(confirm("您确定要关闭本页吗？")){
+                    window.opener=null;
+                    window.open('','_self');
+                    window.close();
+                }
+                else{
+                }
+            }
+		</script>
+		<input class="loginBtn" type="button" value="退出登录"  onClick="custom_close()" />
+
+	<script src="../js/rem.js"></script>
+	</body>
+</html>
